@@ -1,18 +1,41 @@
-p {
-	color:white;
-	text-align:center;
-	border-style: groove;
-	border-width: 5px;
-	border-color: white;
+#startText {
+	background:    #5b5f2a;
+    background: -webkit-linear-gradient(#5b5f2a, #c2ca60);
+    background: linear-gradient(#8d9062, #2e2f28);
+	border-radius: 5px;
+	border: 	   0px;
+	padding:       8px 20px;
+	color:         #ffffff;
+	display:       inline-block;
+	font:          normal 700 24px/1 "Calibri", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px #000000;
+ 	position: absolute;
+    left:30%;
+    top: 30%;
+    width: 45%;
+
 }
-div {
-	height: 360px;
-	width: 360px;
-	background-color: black;
+#text {
+	color:yellow;
+	text-align: center;
 }
-.center {
+
+.background {
+	position: relative;
 	 margin: auto;
-    
+    background-color: black;
     border: 3px solid green;
     padding: 10px;
+    height: 440px;
+	width: 440px;
+}
+#dodger {
+	background: white;
+	width:40px;
+	height:40px;
+	position: absolute;
+	top: 400px;
+	left:200px;
+	
 }
