@@ -1,0 +1,18 @@
+p {
+	color:white;
+	text-align:center;
+	border-style: groove;
+	border-width: 5px;
+	border-color: white;
+}
+div {
+	height: 360px;
+	width: 360px;
+	background-color: black;
+}
+.center {
+	 margin: auto;
+    
+    border: 3px solid green;
+    padding: 10px;
+}
